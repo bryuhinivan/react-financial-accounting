@@ -1,0 +1,122 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.balance-container {
+    margin: 20px 0;
+}
+
+.balance-card {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.balance-positiv {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.balance-negativ {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.balance-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-item {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.stat-item.income {
+      background: #e8f5e8;
+  }
+
+.stat-item.expense {
+    background: #ffe8e8;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.transaction-item.income {
+    border-left: 4px solid green;
+}
+
+.transaction-item.expense {
+    border-left: 4px solid red;
+}
+
+.transaction-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.form-group {
+    margin: 10px 0;
+  }
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.transaction-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    font-size: 12px;
+    color: #666;
+}
+
+.transaction-amount.income {
+    color: green;
+    font-weight: bold;
+}
+
+.transaction-amount.expense {
+    color: red;
+    font-weight: bold;
+}
