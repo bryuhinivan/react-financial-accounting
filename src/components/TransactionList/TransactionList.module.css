@@ -1,0 +1,63 @@
+.transactionList {
+  margin: 20px 0;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.transactionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
+/* Отдельные классы для полосок */
+.incomeBorder {
+  border-left: 4px solid #28a745;
+}
+
+.expenseBorder {
+  border-left: 4px solid #dc3545;
+}
+
+.transactionInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.description {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.category {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+}
+
+.transactionAmount {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.income {
+  color: #28a745;
+}
+
+.expense {
+  color: #dc3545;
+}

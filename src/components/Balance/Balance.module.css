@@ -1,0 +1,46 @@
+.balanceContainer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.balanceCard {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.balancePositive {
+  color: #28a745;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.balanceNegative {
+  color: #dc3545;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.balanceStats {
+  display: flex;
+  gap: 15px;
+}
+
+.statItem {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.income {
+  background: #d4edda;
+  color: #155724;
+}
+
+.expense {
+  background: #f8d7da;
+  color: #721c24;
+}

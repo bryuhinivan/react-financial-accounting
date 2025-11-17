@@ -1,0 +1,31 @@
+.statistics {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.statCard {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.income {
+  color: #28a745;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.expense {
+  color: #dc3545;
+  font-size: 20px;
+  font-weight: bold;
+}
